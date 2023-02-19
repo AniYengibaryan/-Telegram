@@ -12,7 +12,7 @@ bot = telebot.TeleBot('<token>')
 CHANNEL_NAME = 'name'
 # f = open('data.csv', 'r', encoding='UTF-8')
 
-with open('rub/data.csv', 'rb') as f:
+with open('currency/rub/data.csv', 'rb') as f:
     try:  # catch OSError in case of a one line file 
         f.seek(-2, os.SEEK_END)
         while f.read(1) != b'\n':
@@ -23,7 +23,7 @@ with open('rub/data.csv', 'rb') as f:
 
 
 
-with open('dollar/data_dollar.csv', 'rb') as f:
+with open('currency/dollar/data_dollar.csv', 'rb') as f:
     try:  # catch OSError in case of a one line file 
         f.seek(-2, os.SEEK_END)
         while f.read(1) != b'\n':
@@ -34,7 +34,7 @@ with open('dollar/data_dollar.csv', 'rb') as f:
 
 
 
-with open('eur/data_eur.csv', 'rb') as f:
+with open('currency/eur/data_eur.csv', 'rb') as f:
     try:  # catch OSError in case of a one line file 
         f.seek(-2, os.SEEK_END)
         while f.read(1) != b'\n':
