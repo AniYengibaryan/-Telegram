@@ -1,4 +1,3 @@
-
 import requests 
 import time
 import telebot
@@ -55,7 +54,6 @@ while a < 10:
     bot.send_photo(CHANNEL_NAME,open('eur/currey_eur.jpeg','rb'))
     time.sleep(3)
 
-# print(last_line)
 
 
 bot.polling(none_stop=True, interval=0)
