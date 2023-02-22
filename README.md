@@ -1,6 +1,6 @@
 ![Star Badge](https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99)
 
-# Инструмент для отслеживания курса в Telegramя
+# Инструмент для отслеживания курса в Telegram
 
 ## 🛠️ Описание
 <!--Remove the below lines and add yours -->
